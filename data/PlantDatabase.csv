@@ -1,3 +1,52 @@
 Name,Latin Name,Appearance,Light Microscope Image,Light Microscope Description,Scanning Electron Microscope
-"Daisy","Bellis Perennis","img/Daisy.jpg","img/DaisyLM.jpg","1EPG= 2.5Âµm Mean size= 29.5Âµm","img/DaisySEM.png"
-"Dandelion","Taraxacum officinalis","img/Dandelion.png","img/DandelionLM.jpg","1EPG= 2.5Âµm Mean size= 29.5Âµm","img/DandelionSEM.png"
+Daisy,Bellis Perennis,img/Daisy.jpg,img/DaisyLM.jpg,1EPG= 2.5Âµm Mean size= 29.5Âµm,img/DaisySEM.png
+Dandelion,Taraxacum officinalis,img/Dandelion.png,img/DandelionLM.jpg,1EPG= 2.5Âµm Mean size= 29.5Âµm,img/DandelionSEM.png
+Daffodil,Narcissus jonquilla,img/Daffodil.jpg,img/DaffodilLM.jpg,1EPG= 2.5µm Mean size= 58.5µm,
+Wild daffodil,Narcissus pseudonarcissus,img/Wilddaffodil.jpg,,,img/Wilddaffodil.jpg
+Snowdrop,Galanthus nivalis,,,1EPG= 2.5µm Mean size= 26µm,
+Sweet violet,Viola odorata,img/Sweetviolet.jpg,img/SweetvioletLM.jpg,1EPG= 2.5µm Mean size= 16.74µm,img/SweetvioletSEM.jpg
+Hazel,Corylus avellama,img/Hazel.jpg,img/HazelLM.jpg,1EPG= 2.7µm Mean size= 16.74µm,img/HazelSEM.jpg
+Crocus (purple),Crocus speciosus,img/Crocusp.jpg,img/CrocuspLM.jpg,1EPG= 2.7µm Mean size= 110.7 µm,img/CrocuspSEM.jpg
+Crocus (yellow),Crocus speciosus,img/Crocusy.jpg,img/CrocusyLM.jpg,1EPG= 2.7µm Mean size= 103.68µm,img/CrocusySEM.jpg
+Crocus (white),Crocus speciosus,img/Crocusw.jpg,img/CrocuswLM.jpg,1EPG= 2.7µm Mean size= 132.84µm ,img/CrocusSEM.jpg
+Hawthorn blossoms,Crataegus monogyna,img/Hawthornblossoms.jpg,img/HawthornblossomsLM.jpg,1EPG= 2.7µm Mean size= 33.48µm,img/HawthornblossomsSEM.jpg
+Gorse,Ulex europaeus,img/Gorse.jpg,img/GorseLM.jpg,1EPG= 2.7µm Mean size= 30.15µm ,
+Couch grass,Elymus repens ,img/Couchgrass.jpg,,,img/CouchgrassSEM.jpg
+Nettles,"Urtica dioica, U. urens ",img/Nettle.jpg,,,img/NettleSEM.jpg
+Chickweed,Stellaria media,img/Chickweed.jpg,,,img/ChickweedSEM.jpg
+Mugwort,Artemisia vulgaris L,img/Mugwort.jpg,,,img/MugwortSEM.jpg
+Cow parsley,Anthriscus sylvestris,img/Cowparsley.jpg,,,img/CowparsleySEM.jpg
+Cleavers,Galium aparine,img/Cleavers.jpg,,,img/CleaversSEM.jpg
+Herb Robert,Geranium robertianum ,img/Herbrobert.jpg,,,img/HerbrobertSEM.jpg
+Hairy bittercress,Cardamine hirsutaÊ,img/Hairybittercress.jpg,,,img/HairybittercressSEM.jpg
+Wavy bittercress,Cardamine flexuosa ,img/Wavybittercress.jpg,img/WavybittercressLM.jpg,,
+Creeping thistle,Cirsium arvense,img/Creepingthistle.jpg,,,img/CreepingthistleSEM.jpg
+Green alkanet,Pentaglottis sempervirens,img/Greenalkanet.jpg,img/GreenalkanetLM.jpg,,
+Hedge bindweed or bellbind,Calystegia sepiumÊ,img/Hedgebindweed.jpg,,,img/HedgebindweedSEM.jpg
+Field bindweed,Convolvulus arvensis ,img/Fieldbindweed.jpg,,,img/FieldbindweedSEM.jpg
+Japanese knotweed,Fallopia japonica,img/Japaneseknotweed.jpg,img/JapaneseknotweedLM.jpg,,
+Ground elder,Aegopodium podagraria,img/Groundelder.jpg,,,img/GroundelderSEM.jpg
+EnchanterÕs nightshade,Circaea lutetiana,img/EnchanterÕsnightshade.jpg,,,img/EnchanterÕsnightshadeSEM.jpg
+Fireweed,Epilobium angustifolium ,img/Fireweed.jpg,img/FireweedLM.jpg,,imgFireweedSEM.jpg
+Horsetail,Equisetum arvense,img/Horsetail.jpg,img/HorsetailLM.jpg,,
+Broad-leaved dock,Rumex obtusifolius,img/Broad-leaveddock.jpg,img/Broad-leaveddockLM.jpg,,
+Curled dock,Rumex crispus,img/Curleddock.jpg,,,img/CurleddockSEM.jpg
+Birch tree,Betula,img/Birchtree.jpg,,,img/BirchtreeSEM.jpg
+Lesser Celandine,Ficaria verna,img/LesserCelandine.jpg,,,img/LesserCelandineSEM.jpg
+Sycamore maple,Acer pseudoplatanus,img/Sycamoremaple.jpg,img/SycamoremapleLM.jpg,,img/SycamoremapleSEM.jpg
+Teasel,Dipsacus fullonum,img/Teasel.jpg,,,img/TeaselSEM.jpg
+Field poppy,Papaver rhoeas,img/Fieldpoppy.jpg,,,img/FieldpoppySEM.jpg
+Corncockle,Agrostemma githago,img/Corncockle.jpg,,,imgCorncockleSEM.jpg
+Ramsons,Allium ursinum,"img/Ramsons,jpg",,,img/RamsonsSEM.jpg
+Crows garlic,Allium vineale,img/Crowsgarlic.jpg,,,img/CrowsgarlicSEM.jpg
+Horse chestnut,Aesculus hippocastanum,img/Horsechestnut.jpg,img/HorsechestnutLM.jpg,,img/HorsechestnutSEM.jpg
+Cowslip,Primula veris,img/Cowslip.jpg,,,img/Cowslip.jpg
+Creeping (Slender) speedwell,Veronica filiformis,img/Creeping(Slender)speedwell.jpg,img/Creeping(Slender)speedwellLM.jpg,,
+White clover,Trifolium repens,img/Whiteclover.jpg,img/WhitecloverLM.jpg,,img/WhitecloverSEM.jpg
+Groundsel,Senecio vulgarism,img/Groundsel.jpg,,,img/GroundselSEM.jpg
+Red deadnettle,Lamium purpureum,img/Reddeadnettle.jpg,img/ReddeadnettleLM.jpg,,img/ReddeadnettleSEM.jpg
+White dead nettle,Lamium album,img/Whitedeadnettle.jpg,,,img/WhitedeadnettleSEM.jpg
+Tufted vetch,Vicia cracca,img/Tuftedvetch.jpg,img/TuftedvetchLM.jpg,,img/TuftedvetchSEM.jpg
+Alexander's weed,Smyrnium olusatrum,img/Alexander'sweed.jpg,img/Alexander'sweedLM.jpg,,
+ShepherdÕs Purse,Capsella bursa-pastoris,img/ShepherdÕsPurse.jpg,img/ShepherdÕsPurseLM.jpg,,img/ShepherdÕsPurseSEM.jpg
+Hemlock,Conium maculatum,img/Hemlock.jpg,img/HemlockLM.jpg,,
