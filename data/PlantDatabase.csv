@@ -3,4 +3,4 @@ PlantName,LatinName,Appearance,LightMicroscopeImage,LightMicroscopeDesc,Scanning
 "Daisy","Bellis Perennis","img/Daisy.jpg","img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.jpg"
 "Daisy","Bellis Perennis","img/Daisy.jpg","img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.jpg"
 "Daisy","Bellis Perennis","img/Daisy.jpg","img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.jpg"
-"Daisy","Bellis Perennis",<img href="img/Daisy.jpg">,"img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.jpg"
+"Daisy","Bellis Perennis",<img src="img/Daisy.jpg" alt="Daisy">,"img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.jpg"
