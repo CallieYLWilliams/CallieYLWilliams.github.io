@@ -24,8 +24,6 @@
     font-family: 'ColaborateThinRegular';
     src: url('/css/fonts/ColabThi-webfont.eot');
     src: url('/css/fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/ColabThi-webfont.woff') format('woff'),
-         url('/css/fonts/ColabThi-webfont.ttf') format('truetype'),
          url('/css/fonts/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -34,6 +32,8 @@
     font-family: 'ColaborateRegRegular';
     src: url('https://www.housingstudies.org/static/css/fonts/ColabReg-webfont.eot');
     src: url('https://www.housingstudies.org/static/css/fonts/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.housingstudies.org/static/css/fonts/ColabReg-webfont.woff') format('woff'),
+         url('https://www.housingstudies.org/static/css/fonts/ColabReg-webfont.ttf') format('truetype'),
          url('https://www.housingstudies.org/static/css/fonts/ColabReg-webfont.svg#ColaborateRegRegular') format('svg');
     font-weight: normal;
     font-style: normal;
