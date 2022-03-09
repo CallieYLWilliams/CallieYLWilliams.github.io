@@ -1,2 +1,3 @@
 PlantName,LatinName,Appearance,LightMicroscopeImage,LightMicroscopeDesc,ScanningElectronMicroscope
 "Daisy","Bellis Perennis","img/Daisy.jpg","img/DaisyLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DaisySEM.png"
+"Dandelion","Taraxacum officinalis","img/Dandelion.png","img/DandelionLM.jpg","1EPG= 2.5µm Mean size= 29.5µm","img/DandelionSEM.png"
