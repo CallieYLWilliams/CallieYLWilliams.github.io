@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	<h1>Plant Database</h1>
     <div class="container-fluid">
         <main class="row">
             <div class="col">
@@ -39,6 +40,11 @@
                 return "<img src='" + img + "'  alt='" + img + "' style='max-height: 150px;'></img>";
             else return "";
         }
+		function format_italic(text) {
+            if (text)
+                return "<em>" + text + "</em>";
+            else return "";
+        }
 
         CsvToHtmlTable.init({
             csv_path: "data/PlantDatabase.csv",
@@ -52,6 +58,7 @@
                 paging: false
             },
             custom_formatting: [
+				[1, format_italic],
                 [2, format_img],
 				[3, format_img],
 				[5, format_img]
