@@ -57,6 +57,7 @@ body {
 }
 .container-fluid{
 	background-color: #f4f4f4;
+	margin: 20px;
 }
 
 h1 {
