@@ -4,7 +4,7 @@ Dandelion,Taraxacum officinalis,img/Dandelion.png,img/DandelionLM.jpg,1EPG= 2.5�
 Daffodil,Narcissus jonquilla,img/Daffodil.jpg,img/DaffodilLM.jpg,1EPG= 2.5µm Mean size= 58.5µm,
 Wild daffodil,Narcissus pseudonarcissus,img/WildDaffodil.jpg,,,img/WildDaffodil.jpg
 Snowdrop,Galanthus nivalis,,,1EPG= 2.5µm Mean size= 26µm,
-Sweet violet,Viola odorata,img/Sweetviolet.jpg,img/SweetVioletLM.jpg,1EPG= 2.5µm Mean size= 16.74µm,img/SweetVioletSEM.jpg
+Sweet violet,Viola odorata,img/SweetViolet.jpg,img/SweetVioletLM.jpg,1EPG= 2.5µm Mean size= 16.74µm,img/SweetVioletSEM.jpg
 Hazel,Corylus avellama,img/Hazel.jpg,img/HazelLM.jpg,1EPG= 2.7µm Mean size= 16.74µm,img/HazelSEM.jpg
 Crocus (purple),Crocus speciosus,img/Crocusp.jpg,img/CrocuspLM.jpg,1EPG= 2.7µm Mean size= 110.7 µm,img/CrocuspSEM.jpg
 Crocus (yellow),Crocus speciosus,img/Crocusy.jpg,img/CrocusyLM.jpg,1EPG= 2.7µm Mean size= 103.68µm,img/CrocusySEM.jpg
