@@ -1,10 +1,21 @@
-
-<div id="CSVTable"></div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="//jquerycsvtotable.googlecode.com/files/jquery.csvToTable.js"></script>
-
-<script>
-$(function() {
-  $('#CSVTable').CSVToTable('PlantDatabase.csv');
-});
-</script>
+<html>
+<table>
+<tr>
+    <td>Header 1</td>
+    <td>Header 2</td>
+</tr>
+<?php
+    $fp = fopen ( "PlantDatabase.csv" , "r" );
+    while (( $data = fgetcsv ( $fp , 1000 , "," )) !== FALSE ) {
+        $i = 0;
+        echo "<tr>";
+        foreach($data as $row) {
+           echo "<td>" . $row . "</td>";
+           $i++ ;
+        }
+        echo "/<tr>";
+    }
+    fclose ( $fp );
+    ?>
+</table>
+</html>
