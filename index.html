@@ -2,63 +2,6 @@
 <html lang="en">
 
 <head>
-	<style>
-.webmadewell {
-	background-color: white;
-}
-body {
-  margin: 0;
-}
-.sample-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-image: src("img/Daisy.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.sample-header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: MidnightBlue;
-  opacity: 0.3;
-}
-.sample-header-section {
-  position: relative;
-  padding: 15% 0 10%;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  font-family: "Montserrat", sans-serif;
-}
-h1 {
-  font-weight: 500;
-}
-h2 {
-  font-weight: 400;
-}
-.sample-section-wrap {
-  position: relative;
-  background-color: white;
-}
-.sample-section {
-  position: relative;
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px;
-}
-
-
-	</style>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,28 +14,29 @@ h2 {
 </head>
 
 <body>
-	<div class="sample-header">
-	  <div class="sample-header-section">
-		<h1>Plant Database</h1>
-	  </div>
-	</div>
-	<div class="sample-section-wrap">
-		<div class="container-fluid">
-			<main class="row">
-				<div class="col">
-					<div id="table-container"></div>
-				</div>
-			</main>
-			<footer class="row">
-				<div class="col">
-					<hr>
-				</div>
-			</footer>
-		</div>
-	</div>
-	
 
-	
+	<section>
+	<div class="wrapper">
+	 <h1 class="gamma lato thin uppercase ls-xlarge">
+		 Callie Williams<br>
+		 <span class="open-sans tera ls-xlarge bold">Plant</span><br>
+		 <span class="epsilon ls-medium">Database</span>
+		</h1>
+	 </div>
+	</section>
+
+    <div class="container-fluid">
+        <main class="row">
+            <div class="col">
+                <div id="table-container"></div>
+            </div>
+        </main>
+        <footer class="row">
+            <div class="col">
+                <hr>
+            </div>
+        </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.csv.min.js"></script>
@@ -101,21 +45,6 @@ h2 {
     <script src="js/csv_to_html_table.js"></script>
 
     <script>
-		function parallax_height() {
-		  var scroll_top = $(this).scrollTop();
-		  var sample_section_top = $(".sample-section").offset().top;
-		  var header_height = $(".sample-header-section").outerHeight();
-		  $(".sample-section").css({ "margin-top": header_height });
-		  $(".sample-header").css({ height: header_height - scroll_top });
-		}
-		parallax_height();
-		$(window).scroll(function() {
-		  parallax_height();
-		});
-		$(window).resize(function() {
-		  parallax_height();
-		});
-	
         function format_img(img) {
             if (img)
                 return "<img src='" + img + "'  alt='" + img + "' style='max-height: 150px;'></img>";
