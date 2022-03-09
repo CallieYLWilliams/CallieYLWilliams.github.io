@@ -310,11 +310,24 @@ section{
 	height: 400px;
 	padding: 3rem 0;
 	position: relative;
-}
-section{
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-image: url(../img/SweetViolet.jpg);
 	opacity: 50%;
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
+.wrapper{
+	max-width: 53.33rem;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	transform: translateY(-50%);
+	top:50%;
+	text-align: center;
+}
+.wrapper.large-wrap{max-width: 100%;}
+
 
 section:before{
 	content: attr(data-description);
