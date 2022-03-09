@@ -322,7 +322,7 @@ section{
 }
 .wrapper.large-wrap{max-width: 100%;}
 
-section:nth-of-type(4){
+section{
 	background-image: url(img/Daisy.jpg)
 }
 
