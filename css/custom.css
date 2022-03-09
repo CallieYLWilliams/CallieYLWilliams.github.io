@@ -56,6 +56,9 @@ body {
   background-color: #404040;
   color: white;
 }
+.container-fluid{
+	background-color: none;
+}
 
 h1 {
   font: 32px/1em 'GibsonBold', serif;
