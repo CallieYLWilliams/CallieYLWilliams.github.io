@@ -323,7 +323,7 @@ section{
 .wrapper.large-wrap{max-width: 100%;}
 
 section{
-	background-image: url(img/Daisy.jpg)
+	background-image: url(../img/Daisy.jpg)
 }
 
 section:before{
