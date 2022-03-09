@@ -58,6 +58,7 @@ body {
 .container-fluid{
 	background-color: #f4f4f4;
 	margin: 20px;
+	margin-right: 20px;
 }
 
 h1 {
@@ -317,7 +318,7 @@ section{
 	position: relative;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-image: url(../img/SweetViolet.jpg);
+	background-image: url(../img/Banner.jpg);
 	opacity: 60%;
 	background-repeat: no-repeat; 
 	background-size: cover;
