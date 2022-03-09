@@ -1,7 +1,4 @@
 /* Custom styles */
-/*
-DePaul IHS
-*/
 
 @font-face {
     font-family: 'GibsonSemiBold';
@@ -115,18 +112,6 @@ html {
 
 /* Basically just a bunch of typeface classes, some helper classes(letter-spacing, font-weight, etc.), decorative classes(line-on-headers, double-lines, etc). Three types of bg, image, gradient and solid color. I do this for testing headings/hero-image typography. Now there are ten presets here, but you can mix everything. I know that this brings to classivitis, but I still didn't dwelved into Saas, it is next on my learning roadmap, but I will create a fork soon with Saas and variables. */
 
-
-/* Preset 1 ---- Bold/cursive  */
-/* Preset 2 ---- Thin/bold  */
-/* Preset 3 ---- Add emphasis with color */
-/* Preset 4 ---- Thin/Super bold/thin */
-/* Preset 5 ---- Playing with serifs */
-/* Preset 6 ---- Super contrast */
-/* Preset 7 ---- Vertical text */
-/* Preset 8 ---- Playful type */
-/* Preset 9 ---- Middle flourish */
-/* Preset 10 ---- Overlay text */
-
 /* ==== Font sizes(based on Typeplate's scale) ==== */
 html {
   font: normal 112.5%/1.65 serif; /* base font size 18px with 1.65 line-height */
@@ -161,34 +146,9 @@ p{
   margin-bottom: 0.25385rem;
 }
 
-.giga {
-  font-size: 5rem; /* 90 / 18 = 5 */
-  margin-bottom: 0.33rem;
-}
-
-.mega {
-  font-size: 4rem; /* 72 / 18 = 4 */
-  margin-bottom: 0.4125rem;
-}
-
-.alpha {
-  font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
-  margin-bottom: 0.495rem;
-}
-
-.beta {
-  font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
-  margin-bottom: 0.61875rem;
-}
-
 .gamma {
   font-size: 2rem; /* 36 / 18 = 2 */
   margin-bottom: 0.825rem;
-}
-
-.delta {
-  font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
-  margin-bottom: 1.2375rem;
 }
 
 .epsilon {
@@ -196,10 +156,6 @@ p{
   margin-bottom: 1.41429rem;
 }
 
-.zeta {
-  font-size: 1rem; /* 18 = 18 × 1 */
-  margin-bottom: 1.65rem;
-}
 /* ==== Typefaces  ==== */
 
 .open-sans{font-family: 'Open Sans';}
@@ -367,56 +323,11 @@ section{
 	text-align: center;
 }
 .wrapper.large-wrap{max-width: 100%;}
-section:nth-of-type(3n+1){
-	background-size: cover;
-}
-section:nth-of-type(1){
-	background-image: url(https://download.unsplash.com/photo-1429277096327-11ee3b761c93);
-}
-section:nth-of-type(2){
-  background: -webkit-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* W3C */
-        
-}
-section:nth-of-type(3){
-	background-color: #2A2C39;
-}
+
 section:nth-of-type(4){
-	background-image: url(https://download.unsplash.com/photo-1428550670225-15f007f6f1ba)
+	background-image: src(img/Daisy.jpg)
 }
-section:nth-of-type(5){
-  background: -webkit-linear-gradient(90deg, #134E5E 10%, #71B280 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #134E5E 10%, #71B280 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #134E5E 10%, #71B280 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #134E5E 10%, #71B280 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #134E5E 10%, #71B280 90%); /* W3C */
-        
-        
-}
-section:nth-of-type(6){
-	background-color: #FCF751;
-}
-section:nth-of-type(7){
-	background-image: url(https://images.unsplash.com/photo-1453974336165-b5c58464f1ed?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=12d0ef05e407b1c9c85ad9875ece1a13)
-}
-section:nth-of-type(8){
-	
-  background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #485563 10%, #29323c 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #485563 10%, #29323c 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #485563 10%, #29323c 90%); /* W3C */
-        
-}
-section:nth-of-type(9){
-	background-color: #b78681;
-}
-section:nth-of-type(10){
-	background-image: url(https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?q=75&fm=jpg&s=6a4fc66161293fc4a43a6ca6f073d1c5)
-}
+
 section:before{
 	content: attr(data-description);
 	font-size: 0.9rem;
