@@ -307,24 +307,12 @@ p{
 
 /* ==== General styles ==== */
 section{
-	height: 600px;
+	height: 400px;
 	padding: 3rem 0;
 	position: relative;
 }
-.wrapper{
-	max-width: 53.33rem;
-	margin: 0 auto;
-	position: relative;
-	z-index: 10;
-	transform: translateY(-50%);
-	top:50%;
-	text-align: center;
-}
-.wrapper.large-wrap{max-width: 100%;}
-
 section{
 	background-image: url(../img/SweetViolet.jpg);
-	max-height: 500px;
 	opacity: 50%;
 }
 
