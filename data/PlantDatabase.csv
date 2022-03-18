@@ -1,8 +1,8 @@
-Name,Latin Name,Appearance,Light Microscope Image,Light Microscope Description,Scanning Electron Microscope
+Name,Latin Name,Appearance,Light Microscope Image,Light Microscope Description,Scanning Electron Microscope Image
 Daisy,Bellis Perennis,img/Daisy.jpg,img/DaisyLM.jpg,1EPG= 2.5µm Mean size= 29.5µm 400x magnification,img/DaisySEM.png
 Dandelion,Taraxacum officinalis,img/Dandelion.png,img/DandelionLM.jpg,1EPG= 2.5µm Mean size= 29.5µm 400x magnification,img/DandelionSEM.png
 Daffodil,Narcissus jonquilla,img/Daffodil.jpg,img/DaffodilLM.jpg,1EPG= 2.5µm Mean size= 58.5µm 400x magnification,
-Wild daffodil,Narcissus pseudonarcissus,img/WildDaffodil.jpg,,,img/WildDaffodilSEM.jpg
+Wild daffodil,Narcissus pseudonarcissus,img/WildDaffodil.jpg,,,img/WildDaffodilSEM.png
 Snowdrop,Galanthus nivalis,,,1EPG= 2.5µm Mean size= 26µm 400x magnification,
 Sweet violet,Viola odorata,img/SweetViolet.jpg,img/SweetVioletLM.jpg,1EPG= 2.5µm Mean size= 16.74µm 400x magnification,img/SweetVioletSEM.jpg
 Hazel,Corylus avellama,img/Hazel.jpg,img/HazelLM.jpg,1EPG= 2.7µm Mean size= 16.74µm 400x magnification,img/HazelSEM.jpg
