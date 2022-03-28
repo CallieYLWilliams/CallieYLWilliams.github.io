@@ -21,13 +21,13 @@ e.g.
 	
 Once all new plants are added, changes need to be pushed to git:
 
-	* 1. `cd D:\Shortcuts\Documents\Callie\Website\CallieYLWilliams.github.io` - Change to working directory in terminal
+1. `cd D:\Shortcuts\Documents\Callie\Website\CallieYLWilliams.github.io` - Change to working directory in terminal
 	
-	* 2. `git add --all	- (adds all changed and new files to the repositry)
+2. `git add --all	- (adds all changed and new files to the repositry)
 	
-	* 3. `git commit -m "NAME_OF_COMMIT"` -('saves' changes locally)
+3. `git commit -m "NAME_OF_COMMIT"` -('saves' changes locally)
 	
-	* 4. `git push -u origin main` - (pushes changes to the github repositry ('internet') so it can be publically accesed and viewed on https://callieylwilliams.github.io/)
+4. `git push -u origin main` - (pushes changes to the github repositry ('internet') so it can be publically accesed and viewed on https://callieylwilliams.github.io/)
 	
 	
 ## Technical Details
