@@ -1,8 +1,6 @@
 # CallieYLWilliams.github.io
 Plant Database
 
-## Add New Plants
-
 Download code from https://github.com/CallieYLWilliams/CallieYLWilliams.github.io (Via git clone or otherwise)
 	e.g.
 	git clone https://github.com/CallieYLWilliams/CallieYLWilliams.github.io.git
@@ -21,9 +19,5 @@ Once all new plants are added, changes need to be pushed to git:
 	2. git add --all							(adds all changed and new files to the repositry)
 	3. git commit -m "NAME_OF_COMMIT"			('saves' changes locally)
 	4. git push -u origin main					(pushes changes to the github repositry ('internet') so it can be publically accesed and viewed on https://callieylwilliams.github.io/)
-	
-	
-## Technical Details
-
 
 	
